@@ -1,78 +1,86 @@
 {
-    "name": "番茄专注时钟",
-    "short_name": "番茄钟",
-    "description": "一个基于番茄工作法的专注计时器，帮助您提高工作和学习效率",
-    "start_url": "./index.html",
-    "display": "standalone",
-    "background_color": "#f5f7fa",
-    "theme_color": "#e74c3c",
-    "orientation": "portrait",
-    "icons": [
-      {
-        "src": "./icons/icon-72x72.png",
-        "sizes": "72x72",
-        "type": "image/png"
-      },
-      {
-        "src": "./icons/icon-96x96.png",
+  "name": "番茄专注时钟",
+  "short_name": "番茄钟",
+  "description": "一个基于番茄工作法的专注计时器，帮助您提高工作和学习效率",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#f5f7fa",
+  "theme_color": "#e74c3c",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "https://lalune0606.github.io/tomato/icons/icon-72x72.png",
+      "sizes": "72x72",
+      "type": "image/png"
+    },
+    {
+      "src": "https://lalune0606.github.io/tomato/icons/icon-96x96.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src": "https://lalune0606.github.io/tomato/icons/icon-128x128.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "https://lalune0606.github.io/tomato/icons/icon-144x144.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "https://lalune0606.github.io/tomato/icons/icon-152x152.png",
+      "sizes": "152x152",
+      "type": "image/png"
+    },
+    {
+      "src": "https://lalune0606.github.io/tomato/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://lalune0606.github.io/tomato/icons/icon-384x384.png",
+      "sizes": "384x384",
+      "type": "image/png"
+    },
+    {
+      "src": "https://lalune0606.github.io/tomato/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "categories": ["productivity", "utilities"],
+  "screenshots": [
+    {
+      "src": "https://lalune0606.github.io/tomato/screenshots/screenshot1.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "label": "主计时器界面"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "开始专注",
+      "short_name": "专注",
+      "description": "开始一个25分钟的番茄钟",
+      "url": "./index.html?action=start",
+      "icons": [{ 
+        "src": "https://lalune0606.github.io/tomato/icons/icon-96x96.png", 
         "sizes": "96x96",
-        "type": "image/png"
-      },
-      {
-        "src": "./icons/icon-128x128.png",
-        "sizes": "128x128",
-        "type": "image/png"
-      },
-      {
-        "src": "./icons/icon-144x144.png",
-        "sizes": "144x144",
-        "type": "image/png"
-      },
-      {
-        "src": "./icons/icon-152x152.png",
-        "sizes": "152x152",
-        "type": "image/png"
-      },
-      {
-        "src": "./icons/icon-192x192.png",
-        "sizes": "192x192",
-        "type": "image/png",
-        "purpose": "any maskable"
-      },
-      {
-        "src": "./icons/icon-384x384.png",
-        "sizes": "384x384",
-        "type": "image/png"
-      },
-      {
-        "src": "./icons/icon-512x512.png",
-        "sizes": "512x512",
-        "type": "image/png"
-      }
-    ],
-    "categories": ["productivity", "utilities"],
-    "screenshots": [
-      {
-        "src": "./screenshots/screenshot1.png",
-        "sizes": "1280x720",
-        "type": "image/png",
-        "label": "主计时器界面"
-      }
-    ],
-    "shortcuts": [
-      {
-        "name": "开始专注",
-        "short_name": "专注",
-        "description": "开始一个25分钟的番茄钟",
-        "url": "./index.html?action=start",
-        "icons": [{ "src": "./icons/icon-96x96.png", "sizes": "96x96" }]
-      },
-      {
-        "name": "查看统计",
-        "short_name": "统计",
-        "description": "查看您的番茄钟统计数据",
-        "url": "./index.html?action=stats",
-        "icons": [{ "src": "./icons/icon-96x96.png", "sizes": "96x96" }]
-      }
-    ]
-  }
+        "type": "image/png"  // 补全缺失的type字段
+      }]
+    },
+    {
+      "name": "查看统计",
+      "short_name": "统计",
+      "description": "查看您的番茄钟统计数据",
+      "url": "./index.html?action=stats",
+      "icons": [{ 
+        "src": "https://lalune0606.github.io/tomato/icons/icon-96x96.png", 
+        "sizes": "96x96",
+        "type": "image/png"  // 补全缺失的type字段
+      }]
+    }
+  ]
+}
